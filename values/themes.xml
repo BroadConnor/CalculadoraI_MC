@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme usando Material 3 -->
+    <style name="Base.Theme.IMC" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores Principales M3 -->
+        <item name="colorPrimary">#E95D2C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#C74B20</item>
+        <item name="colorOnPrimaryContainer">#FFFFFF</item>
+
+        <!-- Colores Secundarios y de Acento M3 -->
+        <item name="colorSecondary">#E95D2C</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#C74B20</item>
+
+        <item name="colorTertiary">#E95D2C</item>
+        <item name="colorAccent" tools:targetApi="21">#E95D2C</item>
+
+        <!-- Color de fondo de la ventana -->
+        <item name="android:windowBackground">#302E35</item>
+
+
+        <item name="android:statusBarColor">#302E35</item> <!-- Cambia el color de la barra-->
+        <item name="android:windowLightStatusBar">false</item> <!-- Pone los iconos de la barra en blanco (false) o en oscuro (true) -->
+    </style>
+
+    <style name="Theme.IMC" parent="Base.Theme.IMC" />
+
+    <!-- Estilo de los botones de la calculadora -->
+    <style name="CalculatorButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#1E1E1E</item>
+    </style>
+
+</resources>
