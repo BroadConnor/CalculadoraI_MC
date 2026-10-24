@@ -1,2 +1,2 @@
 # CalculadoraI_MC
-Aplicación movil que calcula el Indice de masa corporal, solicitando peso y estatura
+Esto es una aplicación Movil que calcula el Indice de Masa Corporal (IMC). Solicitando su estatura y su peso. 
